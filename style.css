@@ -1,0 +1,160 @@
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+}
+
+.forma{
+    display:flex;
+    flex-wrap: wrap;
+    width: 800px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.header h1{
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.forma .fieldes{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-family: 'Sora';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    color: #000000;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.input-fieldes label{
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    color: #000000;
+    width: 168px;
+    height: 16px;
+}
+.input-fieldes-3 input{
+    width: 408px;
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.25);
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    height: 48px;
+    margin: 8px;
+
+}
+
+.input-fieldes-5 input{
+    width: 304px;
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.25);
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    height: 48px;
+    margin: 8px;
+
+}
+.input-fieldes-4 input{
+    width: 625px;
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.25);
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    height: 48px;
+    margin: 8px;
+
+}
+
+.input-fieldes input{
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.25);
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    width: 200px;
+    height: 48px;
+    margin: 8px;
+}
+.credit
+
+button{
+    width: 384px;
+    height: 48px;
+    font-family: 'Sora',sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: #232529;
+    border-radius: 4px;
+    margin: 32px 400px 40px 35px;
+}
+
+.footer{
+    display: flex;
+    text-align: left;
+}
+
+.footer select{
+    width: 200px;
+    height: 48px;
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #DADADA;
+    display: flex;
+    flex-direction: space-between;
+    opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.footer label{
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-align: left;
+}
